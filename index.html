@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="KP-Press - Your Investment Info Media" />
+    <meta name="author" content="kontakperkasa futures" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>KP-Press - Your Investment Info Media</title>
+
+    <link rel="shortcut icon" href="images/icon/favicon.ico" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="css/fontawesome/all.min.css" />
+
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css" />
+    
+    <link rel="stylesheet" href="css/style.css" /> 
+  </head>
+
+<body>
+
+  <!--=================================
+  Loader -->  
+  <div id="overlayer"></div>
+  <span class="loader">
+    <span class="loader-inner"></span>
+  </span>
+
+  <!--=================================
+  Header -->
+  <header class="header header-sticky">
+    <div class="topbar d-none d-md-block">
+      <div class="container">
+        <div class="topbar-inner">
+          <div class="row">
+            <div class="col-12">
+              <div class="d-lg-flex align-items-center text-center">
+                <div class="topbar-left mb-2 mb-lg-0">
+                  <div class="topbar-date d-inline-flex"> <span class="date"><i class="fa-solid fa-calendar-days"></i> Sunday, March, 2022</span> </div>
+                  <div class="me-auto d-inline-flex">
+                    <ul class="list-unstyled top-menu">
+                      <li><strong>JKT</strong> 09:12</li>
+                      <li><strong>TKY</strong> 11:12</li>
+                      <li><strong>HK</strong> 10:12</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="topbar-right ms-auto justify-content-center">
+                  <div class="dropdown right-menu d-inline-flex news-language">
+                    <a class="dropdown-toggle" href="#" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img class="img-fluid country-flag" src="images/country-flags/02.jpg" alt=""> English<i class="fas fa-chevron-down fa-xs"></i> </a>
+                    <div class="dropdown-menu mt-0" aria-labelledby="dropdownMenuButton2">
+                      <a class="dropdown-item" href="#"><img class="img-fluid country-flag" src="images/country-flags/02.jpg" alt="">English</a>
+                      <a class="dropdown-item" href="#"><img class="img-fluid country-flag" src="images/country-flags/08.jpg" alt="">Indonesia</a>
+                    </div>
+                  </div>
+                  <div id="weathertime" class="clock"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container position-relative">
+        <a class="navbar-brand" href="index.html">
+          <img class="kplogo" src="images/kppress.svg" alt="logo">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown03" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Market News<i class="fas fa-chevron-down fa-xs"></i>
+            </a>
+          <ul class="dropdown-menu megamenu dropdown-menu-md" aria-labelledby="navbarDropdown03">
+            <li>
+              <div class="row">
+                <div class="col-sm-4"> <span class="mb-3 nav-title mt-0">Index</span>
+                  <ul class="list-unstyled mt-lg-3">
+                    <li><a class="dropdown-submenu" href="index-market.html">Nikkei</a></li>
+                    <li><a class="dropdown-submenu" href="index-market.html">Hangseng</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-4"> <span class="mb-3 nav-title mt-0">Commodity</span>
+                  <ul class="list-unstyled mt-lg-3">
+                    <li><a class="dropdown-submenu" href="index-market.html">Gold</a></li>
+                    <li><a class="dropdown-submenu" href="index-news.html">Oil</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-4"> <span class="mb-3 nav-title mt-0">Currencies</span>
+                  <ul class="list-unstyled mt-lg-3">
+                    <li><a class="dropdown-submenu" href="index-news.html">EUR / USD</a></li>
+                    <li><a class="dropdown-submenu" href="index-news.html">USD / JPY</a></li>
+                    <li><a class="dropdown-submenu" href="index-news.html">USD / CHF</a></li>
+                    <li><a class="dropdown-submenu" href="index-news.html">AUD / USD</a></li>
+                    <li><a class="dropdown-submenu" href="index-news.html">GBP / USD</a></li>
+                    <li><a class="dropdown-submenu" href="index-news.html">US Dollar</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown02" role="button" data-bs-toggle="dropdown" aria-expanded="false">Economic News<i class="fas fa-chevron-down fa-xs"></i></a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown02">
+                <li><a class="dropdown-item" href="index-news.html">Economy</a></li>
+                <li><a class="dropdown-item" href="index-news.html">Fiscal & Moneter</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown02" role="button" data-bs-toggle="dropdown" aria-expanded="false">Analysis<i class="fas fa-chevron-down fa-xs"></i></a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown02">
+                <li><a class="dropdown-item" href="index-market.html">Market Analysis</a></li>
+                <li><a class="dropdown-item" href="live-chart.html">Live Chart</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown02" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tools<i class="fas fa-chevron-down fa-xs"></i></a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown02">
+                <li><a class="dropdown-item" href="economic-calendar.html">Economic Calendar</a></li>
+                <li><a class="dropdown-item" href="historical-data.html">Historical Data</a></li>
+                <li><a class="dropdown-item" href="pivot.html">Pivot and Fibonacci</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="add-listing">
+          <div class="header-search">
+            <div class="search">
+              <a href="#search"> <i class="fa-solid fa-magnifying-glass"></i> </a>
+            </div>
+          </div>        
+        </div>
+      </div>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa-solid fa-align-right"></i> </button>
+    </nav>
+  </header>
+  <!--=================================
+  Header -->
+    
+  <!--=================================
+  Search -->
+  <div id="search">
+    <button type="button" class="close"><i class="fa-solid fa-xmark"></i></button>
+    <form>
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-9 col-sm-8">
+            <div class="search-popup">
+              <input type="search" value="" placeholder="Enter keyword" />
+              <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!--=================================
+  Search -->
+
+  <!--=================================
+  Breaking News -->
+  <section class="breaking-news">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-2 col-lg-3 col-md-4 "> <span class="news-btn">BREAKING NEWS <i class="fa-solid fa-caret-right"></i></span> </div>
+        <div class="col-xl-10 col-lg-9 col-md-8">
+          <div class="owl-carousel arrow-styel-03" data-nav-dots="false" data-nav-arrow="true" data-items="4" data-xl-items="4" data-lg-items="3" data-md-items="3" data-sm-items="2" data-xs-items="2" data-xx-items="1" data-autoheight="true">
+            <!-- item-01 -->
+            <div class="item">
+              <div class="news-post">
+                <div class="news-image"> <img class="img-fluid" src="images/news/01.jpg" alt=""> </div>
+                <div class="news-post-details">
+                  <h6 class="news-title"><a href="news-detail.html">Market Review Friday, October 13, 2023</a></h6> </div>
+              </div>
+            </div>
+            <!-- item-02 -->
+            <div class="item">
+              <div class="news-post">
+                <div class="news-image"> <img class="img-fluid" src="images/news/02.jpg" alt=""> </div>
+                <div class="news-post-details">
+                  <h6 class="news-title"><a href="news-detail.html">Dow Jones Ekes Out Gain Friday, Stocks Mostly Advance ...</a></h6> </div>
+              </div>
+            </div>
+            <!-- item-03 -->
+            <div class="item">
+              <div class="news-post">
+                <div class="news-image"> <img class="img-fluid" src="images/news/03.jpg" alt=""> </div>
+                <div class="news-post-details">
+                  <h6 class="news-title"><a href="news-detail.html">S&P 500 falls slightly Friday, but heads for weekly gain</a></h6> </div>
+              </div>
+            </div>
+            <!-- item-04 -->
+            <div class="item">
+              <div class="news-post">
+                <div class="news-image"> <img class="img-fluid" src="images/news/04.jpg" alt=""> </div>
+                <div class="news-post-details">
+                  <h6 class="news-title"><a href="news-detail.html">Gold Closes Lower as the Dollar and Yields Rise after US ...</a></h6> </div>
+              </div>
+            </div>
+            <!-- item-05 -->
+            <div class="item">
+              <div class="news-post">
+                <div class="news-image"> <img class="img-fluid" src="images/news/05.jpg" alt=""> </div>
+                <div class="news-post-details">
+                  <h6 class="news-title"><a href="news-detail.html">U.S. oil futures gain nearly 6% for the week as Israel-Gaza ...</a></h6> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="breaking-news-slide"> </div>
+      </div>
+    </div>
+  </section>
+  <!--=================================
+  Breaking News -->
+
+  <!--=================================
+  Headlines News -->
+  <section class="news-latest-posts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="blog-post post-style-01">
+            <div class="blog-image"> <img class="img-fluid" src="images/news/07.jpg" alt=""> </div>
+            <div class="blog-post-details"> <span class="badge badge-large bg-green">Economy</span>
+              <h3 class="blog-title"><a href="news-detail.html">BoE's Bailey Says Future Rate Decisions Will Be 'Tight'</a></h3>
+              <div class="blog-post-meta">
+                <div class="blog-post-time"> <a href="#"><i class="fa-solid fa-calendar-days"></i>Oct 13 2023</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row mb-lg-4 mb-0">
+            <div class="col-lg-12">
+              <div class="blog-post post-style-01">
+                <div class="blog-image"> <img class="img-fluid" src="images/news/06.jpg" alt=""> </div>
+                <div class="blog-post-details"> <span class="badge badge-large bg-green">Economy</span>
+                  <h4 class="blog-title"><a href="news-detail.html">Israel Hopes It Will Avoid Rating Cut on War, At Least for Now</a></h4> </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="blog-post post-style-01">
+                <div class="blog-image"> <img class="img-fluid" src="images/news/08.jpg" alt=""> </div>
+                <div class="blog-post-details"> <span class="badge badge-large bg-green">Fiscal & Monetory</span>
+                  <h4 class="blog-title"><a href="news-detail.html">JPMorgan and Citi Pass Pain to Hedge Fund Shorts</a></h4> </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="blog-post post-style-01 mb-0">
+                <div class="blog-image"> <img class="img-fluid" src="images/news/09.jpg" alt=""> </div>
+                <div class="blog-post-details"> <span class="badge badge-large bg-orange">Oil</span>
+                  <h4 class="blog-title"><a href="news-detail.html">Oil Industry to Act on Methane and Flaring, COP28 Chief Says</a></h4> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=================================
+  Headlines News -->
+
+  <!--=================================
+ Live Chart -->
+  <section class="space-ptb">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-title">
+            <h2 class="mb-0">Live Chart</h2> </div>
+        </div>
+      </div>     
+      <div class="row">
+        <div class="col-md-12 livechart-info">
+          <img class="img-fluid" src="images/llivechart-cont.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=================================
+Live Chart -->
+
+
+  <!--=================================
+  popular & latest news-->
+  <section class="space-ptb explore-products">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-xl-8">
+          <div class="news-sport-posts">
+            <div class="section-title">
+              <h2 class="title mb-0">Popular News</h2> 
+              <a href="index-news.html" class="view-all">view all <i class="fa-solid fa-circle-arrow-right"></i></a>
+            </div>             
+            <div class="news-tab">
+              <div class="tab-content" id="pills-tabContent02">
+
+                <div class="fade active show">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-12 col-xl-6">
+                      <div class="blog-post post-style-03">
+                        <div class="blog-image"> <img class="img-fluid" src="images/news/10.jpg" alt=""> </div> <span class="badge badge-large bg-green">Gold</span>
+                        <div class="blog-post-details">
+                          <h6 class="blog-title"><a href="news-detail.html">Gold prices rally to 3-week high, as Israel-Gaza conflict sparks rush to havens</a></h6>
+                          <div class="blog-post-meta">
+                            <div class="blog-post-time"><i class="fa-solid fa-calendar-days"></i>Oct 13 2023</div>
+                          </div>
+                          <p>The yellow metal climbs over 3% Friday, the biggest daily percentage gain of the year so farThe yellow metal climbs over 3% Friday, the biggest daily percentage gain of the year so far.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-12 col-xl-6">
+                      <div class="blog-post post-style-04">
+                        <div class="blog-image"> <img class="img-fluid" src="images/news/11.jpg" alt=""> </div>
+                        <div class="blog-post-details"> <span class="badge text-green">Market Update</span>
+                          <h6 class="blog-title"><a href="news-detail.html">Market Review Friday, October 13, 2023</a></h6>
+                          <div class="blog-post-meta">
+                            <div class="blog-post-time"><i class="fa-solid fa-calendar-days"></i>Oct 13 2023</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="blog-post post-style-04">
+                        <div class="blog-image"> <img class="img-fluid" src="images/news/12.jpg" alt=""> </div>
+                        <div class="blog-post-details"> <span class="badge text-green">Market Update</span>
+                          <h6 class="blog-title"><a href="news-detail.html">European stocks close lower while investors assess strong U.S. earnings</a></h6>
+                          <div class="blog-post-meta">
+                            <div class="blog-post-time"><i class="fa-solid fa-calendar-days"></i>Oct 13 2023</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="blog-post post-style-04">
+                        <div class="blog-image"> <img class="img-fluid" src="images/news/13.jpg" alt=""> </div>
+                        <div class="blog-post-details"> <span class="badge text-green">Economy</span>
+                          <h6 class="blog-title"><a href="news-detail.html">China's Consumer Prices Flatline as Economic Concerns Persist</a></h6>
+                          <div class="blog-post-meta">
+                            <div class="blog-post-time"><i class="fa-solid fa-calendar-days"></i>Oct 13 2023</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="blog-post post-style-04">
+                        <div class="blog-image"> <img class="img-fluid" src="images/news/14.jpg" alt=""> </div>
+                        <div class="blog-post-details"> <span class="badge text-green">USD/JPY</span>
+                          <h6 class="blog-title"><a href="news-detail.html">Dollar Holds Inflation Driven Gains, Yen Within Touching Distance of 150</a></h6>
+                          <div class="blog-post-meta">
+                            <div class="blog-post-time"><i class="fa-solid fa-calendar-days"></i>Oct 13 2023</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--=================================
+       popular news -->
+
+        <!--=================================
+        latest news -->
+        <div class="col-lg-5 col-xl-4">
+          <div class="sidebar">
+            <div class="widget post-widget">
+              <div class="title-sidebar">
+              <h6>Latest News</h6>
+              <a href="#" class="view-all">view all <i class="fa-solid fa-circle-arrow-right"></i></a>
+            </div>
+              <div class="news-tab">
+                <div class="tab-content">
+                  <div class="tab-pane fade show active">
+                    <div class="blog-post post-style-04">
+                      <div class="blog-image"> <img class="img-fluid" src="images/news/15.jpg" alt=""> </div>
+                      <div class="blog-post-details"> <span class="badge text-green">Gold</span>
+                        <h6 class="blog-title"><a href="news-detail.html">Gold Set for Biggest Weekly Gain in Seven Months on Haven Demand</a></h6>
+                        <div class="blog-post-meta">
+                          <div class="blog-post-time"><i class="fa-solid fa-calendar-days"></i>Oct 13 2023</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="blog-post post-style-04">
+                      <div class="blog-image"> <img class="img-fluid" src="images/news/16.jpg" alt=""> </div>
+                      <div class="blog-post-details"> <span class="badge text-green">Fiscal & Monetory</span>
+                        <h6 class="blog-title"><a href="news-detail.html">Lagarde Speech: There Is More Policy Lag In Pipeline From Past Hikes</a></h6>
+                        <div class="blog-post-meta">
+                          <div class="blog-post-time"><i class="fa-solid fa-calendar-days"></i>Oct 13 2023</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="blog-post post-style-04">
+                      <div class="blog-image"> <img class="img-fluid" src="images/news/17.jpg" alt=""> </div>
+                      <div class="blog-post-details"> <span class="badge text-green">Oil</span>
+                        <h6 class="blog-title"><a href="news-detail.html">U.S. oil futures gain nearly 6% for the week as Israel-Gaza war intensifies</a></h6>
+                        <div class="blog-post-meta">
+                          <div class="blog-post-time"><i class="fa-solid fa-calendar-days"></i>Oct 13 2023</div>
+                        </div>
+                      </div>s
+                    </div>
+                    <div class="blog-post post-style-04">
+                      <div class="blog-image"> <img class="img-fluid" src="images/news/18.jpg" alt=""> </div>
+                      <div class="blog-post-details"> <span class="badge text-green">Economy</span>
+                        <h6 class="blog-title"><a href="news-detail.html">China's Sept New Bank Lending Jumps Less Than Expected</a></h6>
+                        <div class="blog-post-meta">
+                          <div class="blog-post-time"><i class="fa-solid fa-calendar-days"></i>Oct 13 2023</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--=================================
+        latest news -->
+
+      </div>
+    </div>
+  </section>
+  <!--=================================
+  popular & latest news -->
+
+<!--=================================
+ event banner -->
+ <section class="space-pb">
+  <div class="container"> 
+    <div class="row">
+      <div class="col-md-12">
+       <img class="banner-event" src="images/banner/banner-event-kppress.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<!--=================================
+event banner -->
+
+  <!--=================================
+  Economic Calendar & Gold Corner -->
+  <section class="space-ptb bg-holder" style="background-image: url(./images/bg/bg-cal-gold.png);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="bnr-lft">
+            <div class="title-cal">
+                <h2><span class="b-title">Economic Calendar</span></h2>
+                <a href="economic-calendar.html" class="view-all">view all <i class="fa-solid fa-circle-arrow-right"></i></a>
+            </div>
+            <div data-aos="fade-up" class="row-fluid" style="height: 489px; overflow-y: scroll;">
+                    <table class="table table-responsive table-hover table-cal">
+                        <thead class="table-heading-cal">
+                          <tr>
+                            <th>Time</th>
+                            <th>Country</th>
+                            <th>Impact</th>
+                            <th>Figures</th>
+                            <th>Previous</th>
+                            <th>Forecast</th>
+                            <th>Actual</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="text-center">17.30</td>
+                            <td class="text-center">AUD</td>
+                            <td class="kol-imp"><span class="text-green">L</span></td>
+                            <td class="text-left">Retail Sales m/m</td>
+                            <td class="text-right">0.60%</td>
+                            <td class="text-right">0.60%</td>
+                            <td class="text-right">0.60%</td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">13.00</td>
+                            <td class="text-center">EUR</td>
+                            <td class="kol-imp"><span class="text-green">L</span></td>
+                            <td class="text-left">German Trade Balance</td>
+                            <td class="text-right">5.4B</td>
+                            <td class="text-right">4.0B</td>
+                            <td class="text-right">-</td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">13:45</td>
+                            <td class="text-center">EUR</td>
+                            <td class="kol-imp"><span class="text-green">L</span></td>
+                            <td class="text-left">French Indusrial Production m/m</td>
+                            <td class="text-right">-1.60%</td>
+                            <td class="text-right">-0.10%</td>
+                            <td class="text-right">-</td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">14:15</td>
+                            <td class="text-center">EUR</td>
+                            <td class="kol-imp"><span class="text-green">L</span></td>
+                            <td class="text-left">Spanish Services PMI</td>
+                            <td class="text-right">50.6</td>
+                            <td class="text-right">50.4</td>
+                            <td class="text-right">-</td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">14:45</td>
+                            <td class="text-center">EUR</td>
+                            <td class="kol-imp"><span class="text-green">L</span></td>
+                            <td class="text-left">Italian Services PMI</td>
+                            <td class="text-right">50.5</td>
+                            <td class="text-right">49.4</td>
+                            <td class="text-right">-</td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">14:50</td>
+                            <td class="text-center">EUR</td>
+                            <td class="kol-imp"><span class="text-green">L</span></td>
+                            <td class="text-left">French Final Services PMI</td>
+                            <td class="text-right">53</td>
+                            <td class="text-right">53</td>
+                            <td class="text-right">-</td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">15:00</td>
+                            <td class="text-center">EUR</td>
+                            <td class="kol-imp"><span class="text-yellow">M</span></td>
+                            <td class="text-left">Final Services PMI (EUR)</td>
+                            <td class="text-right">48.9</td>
+                            <td class="text-right">48.4</td>
+                            <td class="text-right">-</td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">15:30</td>
+                            <td class="text-center">GBP</td>
+                            <td class="kol-imp"><span class="text-green">L</span></td>
+                            <td class="text-left">Final Services PMI</td>
+                            <td class="text-right">49.2</td>
+                            <td class="text-right">49.2</td>
+                            <td class="text-right">-</td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">19:15</td>
+                            <td class="text-center">U.S</td>
+                            <td class="kol-imp"><span class="text-red">H</span></td>
+                            <td class="text-left">ADP Non-Farm Employmennt Change</td>
+                            <td class="text-right">132K</td>
+                            <td class="text-right">200K</td>
+                            <td class="text-right">-</td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">19:30</td>
+                            <td class="text-center">U.S</td>
+                            <td class="kol-imp"><span class="text-green">L</span></td>
+                            <td class="text-left">Trade Balance (US)</td>
+                            <td class="text-right">-70:6B</td>
+                            <td class="text-right">-67.8B</td>
+                            <td class="text-right">-</td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">20:45</td>
+                            <td class="text-center">U.S</td>
+                            <td class="kol-imp"><span class="text-green">L</span></td>
+                            <td class="text-left">Final Services PMI (US)</td>
+                            <td class="text-right">49.2</td>
+                            <td class="text-right">49.2</td>
+                            <td class="text-right">-</td>
+                          </tr>
+                        </tbody>
+                      </table>
+            </div>
+        </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="gold-cor">
+            <div class="title-cal">
+              <h6 class="title-gold">Gold Corner</h6>
+              <a href="#" class="view-all-gold">view all <i class="fa-solid fa-circle-arrow-right"></i></a>
+            </div>
+            <div class="blog-post post-style-03">
+              <div class="blog-image"> <img class="img-fluid" src="images/news/19.jpg" alt=""> </div> <span class="badge badge-large bg-green">Gold</span>
+              <div class="blog-post-details">
+                <h6 class="blog-title"><a href="#">Gold Falls in Possible Technical Correction</a></h6>
+                <div class="blog-post-meta">
+                  <div class="blog-post-time"> <a href="news-detail.html"><i class="fa-solid fa-calendar-days"></i>13 Oct 2023</a> </div>
+                </div>
+                <p>Gold falls in the early morning Asian session in a possible technical correction after prices settled at ...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=================================
+  Economic Calendar & Gold Corner -->
+
+  <!--=================================
+  market analysis-->
+  <section class="space-ptb">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 class="title mb-0">Market Analysis</h2> 
+          <a href="index-market.html" class="view-all">view all <i class="fa-solid fa-circle-arrow-right"></i></a>
+        </div> 
+      </div>   
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="blog-post post-style-03">
+            <div class="blog-image"> <a href="market-detail.html"><img class="img-fluid" src="images/market-analysis/m-01.jpg" alt=""></a> </div> <span class="badge badge-large bg-green">gold</span>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="blog-post post-style-03">
+            <div class="blog-image"> <a href="market-detail.html"><img class="img-fluid" src="images/market-analysis/m-02.jpg" alt=""></a> </div> <span class="badge badge-large bg-green">hangseng</span>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="blog-post post-style-03">
+            <div class="blog-image"> <a href="market-detail.html"><img class="img-fluid" src="images/market-analysis/m-03.jpg" alt=""></a> </div> <span class="badge badge-large bg-green">Nikkei</span>
+          </div>
+        </div>       
+      </div>
+    </div>
+  </section>
+    <!--=================================
+  market analysis-->
+
+    <!--=================================
+  CTA register Online-->
+  <section class="space-ptb bg-holder" style="background-image: url(./images/bg/bg-register.jpg);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <span class="join-us">Join us and start your journey to success here!</span>
+          <a href="#" class="btn btn-sm btn-danger">Register Online</a>
+        </div>
+      </div>
+    </div>
+  </section>
+      <!--=================================
+  CTA register Online-->
+
+    <!--=================================
+  banner ads-->
+  <section class="space-ptb">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <a href="#"><img src="images/banner/ban-demo-acc.png" alt="demo account" class="ads-full"></a>
+        </div>
+        <div class="col-lg-4">
+          <a href="#"><img src="images/banner/ban-real-acc.png" alt="real account" class="ads-full"></a>
+        </div>
+        <div class="col-lg-4">
+          <a href="#"><img src="images/banner/ban-mobile.png" alt="get kppress apps" class="ads-full"></a>
+        </div>       
+      </div>
+    </div>
+  </section>
+    <!--=================================
+  banner ads-->
+
+  <!--=================================
+  disclaimer -->
+  <section class="space-ptb">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h6>Disclaimer</h6>
+          <p class="text-green">Seluruh materi atau konten yang tersaji di dalam website ini hanya bersifat informatif saja, dan tidak dimaksudkan sebagai
+            pegangan serta keputusan dalam investasi atau jenis transaksi lainnya. Kami tidak bertanggung jawab atas segala akibat yang
+            timbul dari penyajian konten tersebut. Semua pihak yang mengunjungi website ini harus membaca Terms of Service (Syarat dan 
+            Ketentuan Layanan) terlebih dahulu dan dihimbau untuk melakukan analisis secara independen serta memperoleh saran dari para 
+            ahli dibidangnya.</p>
+        </div>
+      </div>
+    </div>
+  </section>       
+  <!--=================================
+  disclaimer -->
+
+
+  <!--=================================
+  Footer -->
+  <footer class="footer">
+    <div class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 mb-4">
+            <div class="footer-about">
+              <a class="footer-logo" href="index.html"><img class="img-fluid" src="images/kppress-white.svg" alt="logo"></a>
+            </div>
+          </div>
+          <div class="col-lg-3 mb-4">
+            <h4 class="footer-title">About</h4>
+            <ul class="footer-menu">
+              <li><a href="https://www.kp-futures.com/"><i class="fa-solid fa-chevron-right"></i>Our Companys</a></li>
+              <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Trading Rules</a></li>
+              <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Copyright</a></li>
+              <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Privacy Policy</a></li>
+              <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Risk Disclosure</a></li>
+              <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Term & Service</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 mb-4">
+            <h4 class="footer-title">Main Menu</h4>
+            <ul class="footer-menu">
+              <li><a href="index-news.html"><i class="fa-solid fa-chevron-right"></i>Index</a></li>
+              <li><a href="index-market.html"><i class="fa-solid fa-chevron-right"></i>Commodity</a></li>
+              <li><a href="index-news.html"><i class="fa-solid fa-chevron-right"></i>Currencies</a></li>
+              <li><a href="index-news.html"><i class="fa-solid fa-chevron-right"></i>Economy</a></li>
+              <li><a href="index-news.html"><i class="fa-solid fa-chevron-right"></i>Fiscal & Moneter</a></li>
+              <li><a href="index-market.html"><i class="fa-solid fa-chevron-right"></i>Market Analysis</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 mb-4">
+            <h4 class="footer-title">Tools</h4>
+            <ul class="footer-menu">
+              <li><a href="live-chart.html"><i class="fa-solid fa-chevron-right"></i>Live Chart</a></li>
+              <li><a href="economic-calendar.html"><i class="fa-solid fa-chevron-right"></i>Economic Calendar</a></li>
+              <li><a href="historical-data.html"><i class="fa-solid fa-chevron-right"></i>Historical Data</a></li>
+              <li><a href="pivot.html"><i class="fa-solid fa-chevron-right"></i>Pivot & Fibonacci</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row copyright justify-content-center">
+          <div class="col-md-12 text-center">
+            <p class="mb-0">Copyright © <span id="copyright"> <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span>, Kontakperkasa Futures, . All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--=================================
+    Footer -->
+
+  <!--=================================
+  Back To Top -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+    </svg>
+  </div>
+  <!--=================================
+  Back To Top -->
+
+  <!--=================================
+    Javascript -->
+  <!-- JS Global Compulsory (Do not remove)-->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/popper/popper.min.js"></script>
+  <script src="js/bootstrap/bootstrap.min.js"></script>
+  <script src="js/jquery.appear.js"></script>
+  <!-- Page JS Implementing Plugins (Remove the plugin script here if site does not use that feature)-->
+  <script src="js/owl-carousel/owl.carousel.min.js"></script>
+  <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Template Scripts (Do not remove)-->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
