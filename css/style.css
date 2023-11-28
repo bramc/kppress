@@ -386,7 +386,7 @@ ul {
   list-style: none; }
 
 input.form-control {
-  height: 50px; }
+  height: 40px; }
 
 .blockquote {
   font-size: 16px;
@@ -4577,6 +4577,12 @@ ul.current-news li {
 /*****************************
 Select
 *****************************/
+select {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
 .select2-container .select2-selection--single {
   height: auto;
   outline: none; }
@@ -6909,4 +6915,99 @@ input[type="radio"]:radio {
         width: 100%;
         margin-bottom: 15px; } }
 
-/*# sourceMappingURL=../css/style.css.map */
+/* add */
+
+.header-cal {
+  background-color: #FD9223;
+  color: #ffffff;
+}
+
+.box-cal-detail {
+  background: #FFF6ED;
+  border: 1px solid #FD9223;
+  border-radius: 10px;
+  padding: 10px;
+  line-height: 1.5;
+}
+.ce-detail {
+  padding:15px;
+  height:100%;
+  display:block; 
+}
+.hiddenRow {
+  padding: 0 !important;
+}
+
+.economic-calendar-button {
+  margin-bottom: 20px;
+}
+.btn-cal-active {
+  border-radius: 10px !important;
+  padding: 15px 20px;
+  background: #599907;
+  border-color: #599907;
+  color: #ffffff;
+  margin: 0px 7px 7px 0px;
+}
+.btn-cal-active:hover{
+  background: #599907;
+  border-color: #599907;
+  color: #ffffff;
+}
+
+.btn-cal {
+  border-radius: 10px !important;
+  padding: 15px 20px;
+  background: #FFF6ED;
+  border-color: #599907;
+  color: #599907;
+  margin: 0px 7px 7px 0px;
+}
+.btn-cal:hover {
+  background: #599907;
+  border-color: #599907;
+  color: #ffffff;
+}
+
+.btn-filter {
+  border-radius: 5px !important;
+  padding: 7px 20px;
+  background: #599907;
+  border-color: #599907;
+  color: #ffffff;
+  margin: 0px 7px 7px 0px !important;
+}
+
+.btn-filter:hover{
+  background: #FD9223;
+  border-color: #FD9223;
+  color: #ffffff;
+}
+
+.daterangepicker {
+  background-color: #fff;
+  border-radius: 0 !important;
+  align-content: center !important;
+  padding: 0 !important;
+}
+
+.h-form {
+  margin: 0 10px 0 0;
+}
+
+.date-con {
+  font-size: 14px;
+}
+
+.date-title {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.nav-link {
+  color: #599907;
+}
+
+.nav-link:hover {
+  color: #FD9223;
+}

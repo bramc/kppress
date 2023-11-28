@@ -222,9 +222,26 @@
   <section class="space-pb">
     <div class="container">
       <div class="row">
+        <div class="d-inline-flex mb-2">
         <div class="section-title">
           <h2 class="title mb-0">Market Analysis</h2> 
         </div> 
+       
+                        <div>
+                            <select>
+                                <option value="1">Gold</option>
+                                <option value="2">Nikkei</option>
+                                <option value="3">Hang Seng</option>
+                              </select>
+                        </div>
+                        <div class="d-inline-flex date-con">
+                            <div class="d-flex me-3"><span class="date-title">Start</span><input name="startDate-date-picker" class="form-control" type="date"><span id="startDateSelected"></div>
+                            <div class="d-flex me-3"><span class="date-title">End</span><input name="Date-date-picker" class="form-control" type="date"><span id="endDateSelected"></div>
+                        </div>
+                        <div>
+                            <button class="btn btn-theme">Filter</button>
+                        </div>
+      </div>
       </div>   
       <div class="row">
         <div class="col-lg-4 mb-5">

@@ -249,7 +249,7 @@ content -->
                 <div class="d-flex h-form"><span class="date-title">Start</span><input name="startDate-date-picker" class="form-control" type="date"><span id="startDateSelected"></div>
                 <div class="d-flex h-form"><span class="date-title">End</span><input name="Date-date-picker" class="form-control" type="date"><span id="endDateSelected"></div>
                 
-                <button class="btn btn-theme h-form">Filter</button>
+                <button class="btn btn-filter h-form">Filter</button>
             </div>
         </div>
         <!-- table history -->
@@ -311,24 +311,24 @@ content -->
             </table>
           </div>
           <!--conversion-->
-          <div class="d-inline-flex market-title-left mt-3">
-            <select name="currencies">
+          <div class="d-inline-flex date-con mt-3">
+            <select name="currencies" class="h-form">
                 <option value="1">IDR</option>
                 <option value="2">USD</option>
                 <option value="3">AUS</option>                   
               </select>
 
-              <input type="text" class="form-control" id="value01" placeholder="Currency Value">
+              <input type="text" class="form-control h-form" id="value01" placeholder="Currency Value">
               
-              <span>=</span> 
+              <span class="date-title">=</span> 
 
-              <select name="currencies">
+              <select name="currencies" class="h-form">
                 <option value="1">AUS</option>
                 <option value="2">USD</option>
                 <option value="3">IDR</option>                    
               </select>
 
-              <input type="text" class="form-control" id="value02" placeholder="Currency Value">
+              <input type="text" class="form-control h-form" id="value02" placeholder="Currency Value">
 
           </div>
         </div>
