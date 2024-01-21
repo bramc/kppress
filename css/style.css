@@ -1602,7 +1602,10 @@ ul.current-news li {
   .flag-show {display: inline;}
   .dropdown-submenu {
     color: #777 !important;
-}
+  }
+  .latest-pop {
+    height: 150px !important;
+  }
   #search {
     padding: 16px 0px;
     top: 87px; }
